@@ -8,7 +8,6 @@ from utils import carpeta_valida
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 def ejecucion_automatica():
-    #CARPETA_ENTRADA = r"C:\Users\RAP-RUANO\Documents\CSV"
     #CARPETA_ENTRADA = Path.home() / "Documents" / "CSV"
     CARPETA_ENTRADA = os.path.join(os.path.expanduser("~"), "Documents", "CSV")
     
